@@ -5,8 +5,6 @@ export default function TrackSearchResult({ track, chooseTrack }) {
     chooseTrack(track)
   }
 
-  console.log("track",track);
-
   return (
     <div
       className="d-flex m-2 align-items-center"
